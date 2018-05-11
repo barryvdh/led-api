@@ -379,7 +379,7 @@
     "Reservation": {
       "type": "object",
       "required": [
-        "courtNr",
+        "court",
         "period"
       ],
       "properties": {
@@ -388,7 +388,7 @@
           "description": "Unique Id of the transaction (for logging and debugging purposes",
           "example": "4f2a5ca5-84ab-464e-9f0b-fc14f666a539"
         },
-        "courtNr": {
+        "court": {
           "type": "integer",
           "format": "int32",
           "description": "Court number (an integer number)"
